@@ -1,14 +1,33 @@
 " Vim color scheme
 "
-" Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <joshorourke@me.com>
-" License:     public domain
+" Name:        myob.vim
+" Maintainer:  Edouard Poor
+" License:     Apache License 2.0
 "
-" A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
-" Some parts of this theme were borrowed from the well-documented Lucius theme [2].
+" myob_gray_1         #1b2830
+" myob_gray_2         #2e3e4f
+" myob_gray_3         #3d5269
+" myob_gray_4         #515b64
+" myob_gray_5         #687480
+" myob_gray_6         #969ea7
+" myob_gray_7         #acb4bc
+" myob_gray_8         #c5cace
+"                     #dcdfe1
+"                     #e8eaec
+" myob_gray_9         #f3f4f5
 "
-" [1] http://railscasts.com/about
-" [2] http://www.vim.org/scripts/script.php?script_id=2536
+" myob_regal          #6100a5
+" myob_dusk           #8241aa
+" myob_rouge          #b93499
+" myob_candy          #ec0677
+" myob_golf           #00aa65
+" myob_azure          #2b74df
+" myob_popcorn        #ffdc4b
+" myob_cabana         #77dfe7
+
+" myob_warning        #e6c543 
+" myob_danger         #ce2554
+
 
 set background=dark
 hi clear
@@ -18,7 +37,7 @@ endif
 let g:colors_name = "myob"
 
 
-" Base Colours
+" Base Colours  
 " ------------
 hi Normal                    guifg=#acb4bc guibg=#1b2830
 hi Cursor                    guifg=#000000 guibg=#FFFFFF
@@ -56,7 +75,7 @@ hi SpecialKey                guifg=#3d5269
 " Misc
 " ----
 " directory names and other special names in listings
-hi Directory                 guifg=#8241aa
+hi Directory                 guifg=#2b74df
 
 
 " Popup Menu
@@ -71,7 +90,7 @@ hi PMenuSbar                 guibg=#5A647E gui=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 
-hi Comment                   guifg=#687480 gui=italic
+hi Comment                   guifg=#969ea7 gui=italic
 hi Todo                      guifg=#687480 gui=italic
 hi Constant                  guifg=#2b74df
 hi Define                    guifg=#8241aa
@@ -80,13 +99,13 @@ hi Function                  guifg=#b93499
 hi Identifier                guifg=#8241aa
 
 hi Include                   guifg=#c5cace
-hi Keyword                   guifg=#b93499
+hi Keyword                   guifg=#8241aa
 hi Macro                     guifg=#b93499
-hi Number                    guifg=#ec0677
+hi Number                    guifg=#2b74df
 hi PreCondit                 guifg=#c5cace
 hi PreProc                   guifg=#c5cace
 hi Statement                 guifg=#ec0677
-hi String                    guifg=#2b74df
+hi String                    guifg=#00aa65
 hi Type                      guifg=#b93499
 
 hi Title                     guifg=#f3f4f5

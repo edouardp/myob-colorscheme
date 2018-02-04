@@ -1,3 +1,7 @@
+bundle/
+view/
+*.swp
+_viminfo
 # General
 .DS_Store
 .AppleDouble

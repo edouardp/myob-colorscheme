@@ -25,7 +25,7 @@
 " myob_popcorn        #ffdc4b
 " myob_cabana         #77dfe7
 
-" myob_warning        #e6c543 
+" myob_warning        #e6c543
 " myob_danger         #ce2554
 
 
@@ -37,7 +37,7 @@ endif
 let g:colors_name = "myob"
 
 
-" Base Colours  
+" Base Colours
 " ------------
 hi Normal                    guifg=#acb4bc guibg=#1b2830
 hi Cursor                    guifg=#000000 guibg=#FFFFFF
@@ -46,7 +46,7 @@ hi CursorLineNr              guifg=#ffdc4b guibg=#2e3e4f
 hi CursorColumn                            guibg=#2e3e4f
 hi Search                                  guibg=#77dfe7
 hi Visual                                  guibg=#515b64
-hi LineNr                    guifg=#515b64              
+hi LineNr                    guifg=#515b64
 hi StatusLine                guifg=#c5cace guibg=#1b2830
 hi StatusLineNC                            guibg=#414243
 hi VertSplit                 guifg=#c5cace guibg=#1b2830
@@ -146,5 +146,6 @@ highlight Matchmaker guibg=#6100a5
 
 
 " ShowMarks
+" ---------
 highlight hlShowMarks guifg=#ffdc4b guibg=#2e3e4f
 

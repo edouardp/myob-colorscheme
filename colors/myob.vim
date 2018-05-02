@@ -56,7 +56,7 @@ hi ColorColumn                             guibg=#ce2554
 " Folds
 " -----
 " line used for closed folds
-hi Folded                    guifg=#687480 guibg=#3d5269
+hi Folded                    guifg=#969ea7 guibg=#3d5269
 hi FoldColumn                guifg=#687480 guibg=#3d5269
 
 
@@ -120,13 +120,16 @@ hi DiffChange                guifg=#E6E1DC guibg=#553355
 hi DiffText                  guifg=#E6E1DC guibg=#bb33bb
 hi DiffDelete                guifg=#552222 guibg=#552222
 
+
+" XML/HTML Support
+" ----------------
+hi xmlTag                    guifg=#2b74df
+hi xmlTagName                guifg=#2b74df
+hi xmlEndTag                 guifg=#2b74df
+
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
-
-hi xmlTag                    guifg=#77dfe7
-hi xmlTagName                guifg=#77dfe7
-hi xmlEndTag                 guifg=#77dfe7
 
 
 " GitGutter

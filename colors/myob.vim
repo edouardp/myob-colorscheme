@@ -145,9 +145,9 @@ highlight GitGutterChangeDelete guifg=Red    guibg=#2e3e4f
 highlight Matchmaker guibg=#6100a5
 
 
-" ShowMarks
-" ---------
-highlight hlShowMarks guifg=#ffdc4b guibg=#2e3e4f
+" Vim-Signature
+" -------------
+highlight SignatureMarkText guifg=#ffdc4b guibg=#2e3e4f
 
 
 " Terminal (make it stand out a little)

@@ -149,3 +149,8 @@ highlight Matchmaker guibg=#6100a5
 " ---------
 highlight hlShowMarks guifg=#ffdc4b guibg=#2e3e4f
 
+
+" Terminal (make it stand out a little)
+" --------
+highlight Terminal guibg=#2e3e4f
+

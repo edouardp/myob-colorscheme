@@ -154,3 +154,12 @@ highlight SignatureMarkText guifg=#ffdc4b guibg=#2e3e4f
 " --------
 highlight Terminal guibg=#2e3e4f
 
+
+" NERDTree
+" --------
+highlight link NERDTreeOpenable Normal
+highlight link NERDTreeClosable Normal
+highlight link NERDTreeCWD Keyword
+highlight link NERDTreeUp SpecialKey
+highlight link NERDTreeHelp SpecialKey
+highlight NERDTreeDirSlash guifg=#444444
